@@ -2,7 +2,7 @@
  
 angular.module('myCrudApp').factory('ProductService', ['$http', '$q', function($http, $q){
  
-    var REST_SERVICE_URI = 'http://localhost:8080/angularjs-spring/';
+    var REST_SERVICE_URI = 'http://localhost:8080/VoterMood/';
  
     var factory = {
     	findAllProducts: findAllProducts,
